@@ -1,6 +1,6 @@
 public class HttpFormBuilder {
 
-    //  The boundary is alligned so it doesn't produce padding characters when base64 encoded.
+    //  The boundary is aligned so it doesn't produce padding characters when base64 encoded.
     private final static string Boundary = '1ff13444ed8140c7a32fc4e6451aa76d';
 
     /**
