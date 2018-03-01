@@ -15,7 +15,7 @@ public with sharing class HandlerFileUpload implements BotHandler {
             records.add(new BotRecord(fields));
 	        return new BotResponse(new BotMessage('Bot', 'Your file was uploaded successfully', records));
         } catch (Exception e) {
-			return new BotResponse(new BotMessage('Bot', 'An error occured while uploading the file'));            
+			return new BotResponse(new BotMessage('Bot', 'An error occurred while uploading the file'));            
         }
     }
     
